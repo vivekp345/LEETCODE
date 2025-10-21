@@ -1,3 +1,6 @@
+//leetcode
+
+
 class Solution
 {
 public:
@@ -17,3 +20,4 @@ public:
         return r == x;
     }
 };
+
