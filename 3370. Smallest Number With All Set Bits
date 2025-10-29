@@ -1,0 +1,8 @@
+class Solution {
+public:
+    int smallestNumber(int n) {
+        int bits = 32 - __builtin_clz(n);
+        int allOnes = (1 << bits) - 1;
+        return (n == allOnes) ? n : allOnes;
+    }
+};
